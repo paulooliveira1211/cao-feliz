@@ -8,7 +8,7 @@ menuBtn.addEventListener("click", () => {
 const btnAgendar = document.getElementById("btnAgendar");
 
 btnAgendar.addEventListener("click", () => {
-  window.open("https://wa.me/5515991584049", "_blank");
+  window.open("https://wa.me/5515996949731", "_blank");
 });
 
 const form = document.getElementById("formContato");
