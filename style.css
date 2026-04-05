@@ -82,6 +82,7 @@ nav a {
 
 .card:hover {
   transform: translateY(-5px);
+  transform: translateY(-8px) scale(1.02);
 }
 
 /* Galeria */
@@ -135,6 +136,9 @@ button.enviar {
   text-decoration: none;
   font-weight: bold;
 }
+.footer span {
+  margin: 5px 10px;
+}
 
 /* WhatsApp */
 .whatsapp {
@@ -147,6 +151,7 @@ button.enviar {
   padding: 12px;
   border-radius: 50%;
   text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 /* MENU HAMBURGUER */
@@ -160,6 +165,8 @@ button.enviar {
   position: absolute;
   right: 15px;
   top: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .menu-btn span {
