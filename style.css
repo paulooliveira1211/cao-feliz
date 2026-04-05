@@ -23,7 +23,6 @@ nav {
   display: flex;
   gap: 15px;
 }
-
 nav a {
   display: inline-block;
   margin: 5px;
@@ -39,7 +38,6 @@ nav a {
   background: linear-gradient(to right, #004848, #006d6d);
   color: white;
 }
-
 .banner button {
   margin-top: 20px;
   padding: 12px 25px;
@@ -69,7 +67,6 @@ nav a {
   align-items: center;
   gap: 20px;
 }
-
 .card {
   background: #ffffff;
   width: 90%;
@@ -79,9 +76,7 @@ nav a {
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
-
-.card:hover {
-  transform: translateY(-5px);
+.card:hover {  
   transform: translateY(-8px) scale(1.02);
 }
 
@@ -168,7 +163,6 @@ button.enviar {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .menu-btn span {
   width: 25px;
   height: 3px;
